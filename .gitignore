@@ -18,6 +18,26 @@ ENV/
 
 # ── Jupyter ──────────────────────────────────────────
 .ipynb_checkpoints/
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+site-packages/
+
+# ── Virtual environment ──────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ──────────────────────────────────────────
+.ipynb_checkpoints/
 *.ipynb
 
 # ── Data & Model files ───────────────────────────────
